@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Centimeters to Feet Converter</title>
+</head>
+<body>
+	<h1>Centimeters to Feet Converter</h1>
+	Enter a value (in cm)<br>
+	<input type="text" id="id1"><br>
+		<input type="submit" value="compute" onclick="myFunction()">
+		<p id="id2"></p>
+	<script>
+		function myFunction() {
+			var var1 = document.getElementById("id1").value;
+			var answer = Number(var1)/ 30.48
+;
+			document.getElementById("id2").innerHTML = answer + " ft.";
+		}
+	</script>
+</body>
+</html>
